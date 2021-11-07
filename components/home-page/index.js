@@ -1,10 +1,13 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
+import Header from '../shared/header'
 
 export default function home() {
     return (
         <Container>
-            this is home page
+            <Header />
+            slm
+            this is home page ##
         </Container>
     )
 }
